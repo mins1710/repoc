@@ -1,6 +1,6 @@
 # Mins
 
-A Cydia repository template. This template contains sample on how you can easily make depiction pages without replicating your html pages. The pages are styled using [Bootstrap](http://getbootstrap.com/) which is really easy to use. You can see how it looks like by visiting [this sample repo](https://supermamon.github.io/Reposi3/) on your desktop or mobile phone.
+A Cydia repository template. This template contains sample on how you can easily make depiction pages without replicating your html pages. The pages are styled using [Bootstrap](http://getbootstrap.com/) which is really easy to use. You can see how it looks like by visiting [this sample repo](https://supermamon.github.io/Mins/) on your desktop or mobile phone.
 
 Most data for this repo is stored on XML files and are loaded on the depiction page dynamically. See the guide below on how to set it up. Note that this guide doesn't cover creating .deb files but will briefly cover assiging depictions.
 
@@ -8,7 +8,7 @@ Most data for this repo is stored on XML files and are loaded on the depiction p
 
 ### 1. Download
 
-If you are _not_ hosting your repo on [Github Pages](https://pages.github.com/), you can download the zip file [here](https://github.com/supermamon/Reposi3/archive/master.zip) and extract to a subfolder on your website.
+If you are _not_ hosting your repo on [Github Pages](https://pages.github.com/), you can download the zip file [here](https://github.com/supermamon/Mins/archive/master.zip) and extract to a subfolder on your website.
 
 There are 2 options for those using [Github Pages](https://pages.github.com/).
 
@@ -24,20 +24,20 @@ You can change `repo` to anything you want, like `cydia` for example. So your re
 
 Edit `Release` file. Modify the items pointed by `<--`
 
-    Origin: Reposi3  <--
-    Label: Reposi3   <--
+    Origin: Mins  <--
+    Label: Mins   <--
     Suite: stable
     Version: 1.0
     Codename: ios
     Architectures: iphoneos-arm
     Components: main
-    Description: Reposi3 - a cydia repo template  <--
+    Description: Mins - a cydia repo template  <--
 
 **Branding**
 
 Edit `index.html`
 
-- Change the page title in the `<title>Reposi3</title>` tag
+- Change the page title in the `<title>Mins</title>` tag
 - See lines 20 and 21.
 - Change line 20 into your own **brand** and line 21 to have your own URL.
 - Line2 30-51 contains the list of featured packages. You can edit those or remove them totally.
@@ -52,12 +52,12 @@ This data are the links that appear at the bottom of every depication. The data 
     <footerlinks>
         <link>
             <name>Follow me on Twitter</name>
-            <url>https://twitter.com/reposi3</url>
+            <url>https://twitter.com/Mins</url>
             <iconclass>glyphicon glyphicon-user</iconclass>
         </link>
         <link>
             <name>I want this depiction template</name>
-            <url>https://github.com/supermamon/Reposi3</url>
+            <url>https://github.com/supermamon/Mins</url>
             <iconclass>glyphicon glyphicon-thumbs-up</iconclass>
         </link>
     </footerlinks>
@@ -81,7 +81,7 @@ Rename the duplicate with the same name as your package name.
 There are 2 files inside the folder - `info.xml` and `changelog.xml`.
 Update the 2 files with information regading your package.
 The tags are pretty much self-explanatory.
-Contact [@reposi3](https://twitter.com/reposi3) for questions.
+Contact [@Mins](https://twitter.com/Mins) for questions.
 
 `info.xml`.
 
